@@ -3,55 +3,7 @@
 <head>
   <title>Página de inicio de sesión</title>
   <body>
-    <style>
-        body {
-    
-          
-          
-            
-          font-family: Arial, sans-serif;
-          text-align: center;
-          
-          
-        }
-        
-        .login-form {
-          display: inline-block;
-          margin-top: 150px;
-        }
-        
-        .login-form input[type="text"],
-        .login-form input[type="password"] {
-          padding: 10px;
-          margin: 5px;
-          width: 200px;
-          font-size: 16px;
-        }
-        
-        .login-form input[type="submit"] {
-          padding: 10px 20px;
-          margin-top: 10px;
-          font-size: 16px;
-          background-color: #4CAF50;
-          color: white;
-          border: none;
-          cursor: pointer;
-        }
-        
-      </style>
-    </head>
-    <>
-      <div class="login-form">
-        <h2>Iniciar sesión</h2>
-        <form action="procesar_login.php" method="POST">
-          <input type="text" name="usuario" placeholder="Usuario" required><br>
-          <input type="password" name="contrasena" placeholder="Contraseña" required><br>
-          <input type="submit" value="Ingresar">
-        </form>
-      </div>
-    
-      <img src="/image/1664576194_263986_1664576292_gigante_normal.jpg" alt="Perrito lindo" width="300">
-    </body>
+    HOLA WORLD FROM ECUADOR-QUITO
     <script type="module">
         // Import the functions you need from the SDKs you need
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
@@ -68,7 +20,7 @@
           appId: "1:636915638539:web:396b25200b09fbc56ac20e"
         };
         const email = "jorge563.cordero@epn.edu.ec"
-        const password = "12345678"
+        const password = "12345"
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         // Initialize Firebase Authentication and get a reference to the service
@@ -96,5 +48,54 @@
       </script>
 </body>
   
-  
+  <style>
+    body {
+
+      
+      
+        
+      font-family: Arial, sans-serif;
+      text-align: center;
+      
+      
+    }
+    
+    .login-form {
+      display: inline-block;
+      margin-top: 150px;
+    }
+    
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+      padding: 10px;
+      margin: 5px;
+      width: 200px;
+      font-size: 16px;
+    }
+    
+    .login-form input[type="submit"] {
+      padding: 10px 20px;
+      margin-top: 10px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+  </style>
+</head>
+<>
+  <div class="login-form">
+    <h2>Iniciar sesión</h2>
+    <form action="procesar_login.php" method="POST">
+      <input type="text" name="usuario" placeholder="Usuario" required><br>
+      <input type="password" name="contrasena" placeholder="Contraseña" required><br>
+      <input type="submit" value="Ingresar">
+    </form>
+  </div>
+
+  <img src="/image/1664576194_263986_1664576292_gigante_normal.jpg" alt="Perrito lindo" width="300">
+</body>
 </html>
+
